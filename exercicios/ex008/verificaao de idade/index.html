@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/favicon/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificar</title>
+</head>
+<body>
+    <header><h1>Verificador de idade</h1></header>
+    <section>
+        <div>
+            <p>Ano de nascimento:</p>
+            <input type="number" name="idade" id="texidade" min="0">
+            <p>Sexo:
+                <input type="radio" name="sexo" id="sexmas" checked>
+                <label for="sexmas">Masculino</label>
+                <input type="radio" name="sexo" id="sexfe">
+                <label for="sexfe">Feminino</label>
+            </p>
+            <input type="button" value="Verificar" onclick="verifica()">
+            <!--Para marca somente um de cada vez deve-se usar o mesmo nome na parametro "name" dos input-->
+        </div>
+        <div id="resposta">
+            Preencha os dados acima para ver o resultado
+        </div>
+    </section>
+    <footer>
+        <p>&copy;Idade</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'penes';
+    src: url('font/Stay\ Wild.ttf') format('truetype'), url('font/Stay\ Wild.otf') format('opentype');
+}
+
+body{
+    font: normal 1em Arial Helvetica, sans-serif;
+    background-image: linear-gradient(90deg, lightgray, #888888);
+}
+header{
+    /*Aprendi a diminuir a largura de uma caixa e deixar ela centralizada, e somente colocar as declaraçoes 'margin:auto' e 'text-alihgn: center*/
+    font: italic bold 1.5em 'penes';
+    text-align: center;
+    width: 150px;
+    margin: auto;
+}
+main{
+    background-color: white;
+    width: 350px;
+    height: 350px;
+    margin: 15px auto 30px auto;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 1px;
+}
+#resposta{
+    padding-top: 80px;
+}
+header:hover{
+    color: red;
+    text-shadow: 2px 2px 1px black;
+    cursor: pointer;
+}
+header:active{
+    color: yellow;
+    text-shadow: 3px 3px 2px green;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 400px;
+    border-radius: 2px;
+}
+footer:hover{
+    color: red;
+    cursor: none;
+}
+p{
+    font-weight: bold;
+}
+#botton{
+    cursor: pointer;
+}
+#botton:active{
+    background-color: #989800b6;
+}

@@ -1,0 +1,11 @@
+body{
+    text-align: justify;
+    font: normal 14pt Arial;
+}
+header{
+    text-align: center;
+}
+.teste{
+    position: relative;
+    left: 450px;
+}

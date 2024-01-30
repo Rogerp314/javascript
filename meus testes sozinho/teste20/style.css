@@ -1,0 +1,19 @@
+body{
+    font: normal 14pt Arial;
+    background-image: linear-gradient(90deg, #1A08E5, #E65D07, #23E607);
+}
+section{
+    background-color: #ffffff;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #00000090;
+    padding: 20px;
+    margin: auto;
+}
+header, footer{
+    text-align: center;
+    padding: 10px;
+}
+footer{
+    padding: 20px;
+}

@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    text-align: justify;
+    margin-left: 20px;
+}
+h1{
+    text-align: center;
+    font: normal 30pt Arial;
+}
+p{
+    position: relative;
+    left: 275px;
+}
+#velocidade{
+    position: relative;
+    left: 275px;
+}
+#verificar{
+    position: relative;
+    left: 275px;
+    cursor: pointer;
+    background-color: #828282;
+}
+#resposta{
+    margin-top: 10px;
+}

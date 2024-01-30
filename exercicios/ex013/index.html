@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Variaveis compostas</title>
+</head>
+<body>
+    <header><h1>A diferença entre variavel simples e composta</h1></header>
+    <p>O proprio nome ja diz oq significa, sendo assim a variavel simples so pode <strong>armazernar um valor por vez</strong>, enquanto a variavel composta pode <strong>armazernar varios valores numa mesma estrutura</strong>.</p>
+    <p>A variavel composta e como se fosse varias variaveis simples num bloco so, sendo assim para indentificar elas usa-se <q>[]</q> e o nome da variavel simples dentro da composta. <br> Exemplo:</p>
+    <pre>
+        let a = [variavel 0, varavel 1, varavel 2... varavel n]
+    </pre>
+    <p>Desta forma podemos ver que a variavel composta organiza os valores de tal forma que seja respectivo a ordem colocada entre colchetes, assim cada valor recebe o nome da variavel composta e depois o indice dela. <br>
+    Obs: Os indices (o numero de identificaçao) começa no 0 <br> Uma variavel composta como esta pode ter quantos espaços precisar e ela se chama <q>array</q> ou <q>vetor</q> em portugues. O array e formado por <q>elementos</q> sendo eles as proprias variaveis do exemplo, e cada elemento tem seu conteudo, chave (numero de indentificaçao)e ele ocupa um determinado espaço na memoria. Cada array tem seu elemento com sua determinada chave e conteudo (valor).</p>
+    <p>Para acresentar valores no vetor (variavel composta) sem perder os valores originais e sem criar outro vetor usa-se o comando:</p>
+    <pre>
+        (nome do vetor sem os parenteses; ex:) num[posiçao em que eu quero colocar o novo valor]= valor do novo elemento
+    </pre>
+    <p>Esse exemplo serve para tudo tipo eu posso escolher onde colocar o valor do elemento escolhendo o valor do indice entre os colchetes depois do nome do vetor e antes do sinal de igual, mas se eu so quiser colocar o elemento no ultimo indice sem escolher manualmente e so usar o comando <q>num.push(valor do elemento ex: 4)</q> assim cria-se um elemento no ultimo indice com o valor colocado entre parenteses.</p>
+    <p>Para eu saber o <q>comprimento</q> do meu vetor, ou melhor quantos elementos tem o meu vetor usa-se o comando <q>num.length</q>. <br> Se eu quiser os valores do meu vetor de forma crescente sem precisar eu mesmo organizar usa-se o comando <q>num.sort()</q> assim os valores ficam na ordem crescente</p>
+    <p>Obs: Se na hora de colocar os valores nos idices e eu escolher um indice ja <q>ocupado</q> o novo valor atribuido a ele substituira o valor anterior. <br>
+    Sempre que eu for atribuir um atributo para qualquer variavel e quiser mostrar devo escrever <q>(nome do variavel).atributo</q></p>
+    <p>Se eu quiser posso mostrar um elemento isoladamente usando o comando <q>num[indice que quero mostrar]</q></p>
+    <p>Para eu conseguir mostrar todos os elementos do vetor de forma simples sem precisar ficar repetindo os comandos eu somente mudo o indice ex: <q>num[indice qualquer]</q> no indice posso colocar uma variavel que começa a onde eu quero e termina a onde eu quero usando as tecnicas:</p>
+    <ul>
+        <li>While;</li>
+        <li>do while;</li>
+        <li>for</li>
+    </ul>
+    <p>Sendo assim eu so faço uma estrutura de repetiçao e coloco a variavel no colchetes do vetor.</p>
+    <p>Aqui temos a pagina com o vetor direto no HTML: <br> <a href="pag2.html" target="_self" rel="next">Clique aqui para continuar.</a></p>
+</body>
+</html>

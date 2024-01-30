@@ -1,0 +1,24 @@
+@charset "UTF-8";
+body{
+    font: normal 14pt Arial;
+    text-align: center;
+    background-color: #0923cd;
+}
+h1{
+    color: #ffffff;
+}
+.box{
+    background-color: #ffffff;
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px red;
+    margin: auto;
+}
+p{
+    padding: 15px;
+}
+.res{
+    position: relative;
+    top: 100px;
+}

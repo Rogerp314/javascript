@@ -1,0 +1,22 @@
+@charset "UTF-8";
+body{
+    text-align: justify;
+}
+h1{
+    font: normal 20pt italic;
+    text-align: center;
+}
+h2{
+    font: normal 19pt italic;
+    text-align: center;
+}
+p{
+    margin-left: 20px;
+}
+a{
+    position: relative;
+    top: 100px;
+}
+#verificar{
+    cursor: pointer;
+}

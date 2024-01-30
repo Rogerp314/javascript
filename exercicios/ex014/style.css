@@ -1,0 +1,18 @@
+@charset "UTF-8";
+body{
+    font: normal 14pt Arial;
+    background-color: rgb(0, 123, 255);
+    text-align: justify;
+}
+header{
+    text-align: center;
+    color: #ffffff;
+}
+section{
+    background-color: #ffffff;
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+    margin: auto;
+    padding: 15px;
+}

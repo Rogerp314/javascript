@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Eventos</title>
+</head>
+<body>
+    <h1>Eventos DOM direto do js</h1>
+    <p>Esse metodo serve para nao poluir tanto o HTML, e usa-se os <q>Listener</q> que sao comandos que ficam <q>de olho</q> na detereminada açao e quando essa açao e executada esses <q>Listener</q> fazem a funçao executar os codigos. <br> O comando base desse <q>Listener</q> e assim:</p>
+    <pre>
+        <code>
+            a.addEventListener('clck', clicar)
+        </code>
+    </pre>
+    <p>Sendo <q>a</q> antes do ponto e qualquer objeto vinculado a div ou qualquer outra coisa interativa, depois do ponto e de fato o comando e entre parenteses e aspas simples ou duplas o nome do evento que vai desencadear a açao e depois da virgula dentro dos parenteses e o nome dado para o evento. Isso faz com que na abertura da tag <q>div</q> nao tenha as coisas como <q>onclick = 'clicar'</q>.</p>
+    <p>Como exemplo temos a mesma coisa da pagina passada porem feito da forma de Listener:</p>
+    <div id="area">
+        Interraja...
+    </div>
+    <script src="script.js">
+    </script>
+</body>
+</html>

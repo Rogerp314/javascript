@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Teste de operadores</title>
+</head>
+<body>
+    <h1>Teste de operadores</h1>
+    <p>Como ja escrito no codigo, a <q>auto-atribuiçao</q> pode ser feita da forma escrita nos codigos ou como exemplo:</p>
+    <pre>
+        n **= 3
+        document.write(`O valor de n**3 e ${n}`)
+    </pre>
+    <p>Se da pra ver q pode colocar a operaçao antes do sinal de igual e depois do sinal coloca-se o numero q vai fazer a operaçao com a variavel sem precisar colocar <q>n</q> depois do igual toda hora.</p>
+    <p>Alem de tudo isso temos o <q>ingremento</q> que e quando a variavel recebe ela mais ou menos um sendo os codigos respectivamente assim:</p>
+    <pre>
+        let x = 6
+        x++
+        document.write(`O valor de x+1 e igual a ${x++}`)
+    </pre>
+    <p>Obs: Esse tipo de codigo serve tbm para menos (--)</p>
+    <script>
+        let n = 3
+        alert(`O valor de n e ${n}`)
+        let n2 = n +3
+        document.write(`O valor de n2 e ${n2} <br>`)
+        let n3 = n ** 2
+        document.write(`O valor de n² e ${n3} <br>`)
+        n **= 3
+        document.write(`O valor de n**3 e ${n} <br>`)
+        let x = 6
+        x++
+        document.write(`O valor de x+1 e igual a ${x++} <br>`)
+</body>
+</html>

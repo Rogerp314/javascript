@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <header><h1>Cadastro de Usuario</h1></header>
+    <main>
+        <div id="dados">
+            <div><p>Nome: <br> <input type="text" name="nome" id="nome"></p></div>
+            <div><p>Idade: <br> <input type="number" name="idade" id="idade"></p></div>
+            <div>Salário: <br> <input type="number" name="sal" id="sal"></div>
+            <div><p>Sexo: <input type="radio" name="sexo" checked><label
+            for="sex">Masculino</label> <input type="radio" name="sexo"><label for="sex">Feminino</label></p></div>
+            <div><input type="button" value="Confirmar" onclick="certo()"></div>
+        </div>
+        <div class="result"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'fonts';
+    src: url('fonts/idroid.otf') format('opentype');
+}
+
+body{
+    font: normal normal 1em Arial, sans-serif;
+    background-image: linear-gradient(90deg, #5785AD, #56697A);
+}
+header{
+    font: italic normal 0.75em 'fonts';
+    text-align: center;
+    margin: 50px auto 70px auto;
+}
+.dados{
+    width: 350px;
+    height: 350px;
+    background-color: white;
+    margin: 20px auto 30px auto;
+    padding: 5px 10px 10px 50px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px rgba(0, 0, 0, 0.226);
+}
+#resposta{
+    padding: 100px 30px 0px 0px;
+    font-family: 'fonts';
+}
+footer{
+    position: fixed;
+    bottom: 0;
+}
+footer:hover{
+    cursor: pointer;
+    color: #ffffff;
+}
+#botao{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+#botao:active{
+    color: #000000;
+    background-color: white;
+}
+#peixe{
+    margin: 30px 0px 0px 0px;
+}

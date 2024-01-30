@@ -1,0 +1,26 @@
+body{
+    background-color: rgb(149, 0, 255);
+    font: normal 14pt Arial;
+}
+header{
+    text-align: center;
+    color: #ffffff;
+}
+section{
+    background-color: #ffffff;
+    width: 500px;
+    border-radius: 10px;
+    margin: auto;
+    padding: 10px;
+}
+footer{
+    text-align: center;
+    padding: 20px;
+}
+#resposta{
+    text-align: center;
+}
+#img{
+    text-align: center;
+    padding: 5px;
+}

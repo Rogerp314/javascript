@@ -1,0 +1,9 @@
+body{
+    font: normal 15pt Arial;
+}
+.boton{
+    cursor: pointer;
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0, 17, 255, 0.243);
+}
