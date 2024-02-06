@@ -1,4 +1,4 @@
-let obj = {nome:'Gaby', sexo:'Feminino', idade:16, peso:50,engordar(p=0){
+let obj = {nome:'Gaby', sexo:'Feminino', idade:17, peso:50,engordar(p=0){
     this.peso+=p
 }}
 obj.engordar(10)
