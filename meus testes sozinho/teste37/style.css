@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body{
+    font: normal normal 1em Arial, Helvetica, sans-serif;
+}
+header h1{
+    text-align: center;
+    text-shadow: 2px 2px 3px #00000073;
+}
+#teste{
+    background-color: #0055ff;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    font: normal bold 1.5em times;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+}
